@@ -55,7 +55,7 @@ Cabe recalcar que los parámetros: <code>msg</code> y <code>color</code> deberá
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
   }
   ```  
-  o agréguelo como un archivo separado en su head: ```<link href="/style.css" rel="stylesheet" type="text/css">```  
+  o agréguelo como un archivo en su head: ```<link href="/style.css" rel="stylesheet" type="text/css">```  
   ___
   - <ins>3</ins>: Añada el siguiente código justo antes de ```</body>```:  
   ```
