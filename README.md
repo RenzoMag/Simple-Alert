@@ -14,14 +14,15 @@ Las alertas se invocarán con el llamado a la función: <code>alertaokgo(msg, co
 
 Cabe recalcar que los parámetros: <code>msg</code> y <code>color</code> deberán ser ingresados entre comillas.  
 #### <ins>Ejemplo de alerta:</ins>  
-<code>alertaokgo("Ingrese un valor válido", "#FFB600", 3000)</code>  
-
+```javascript
+alertaokgo("Ingrese un valor válido", "#FFB600", 3000)
+```
 ![Captura](https://user-images.githubusercontent.com/75407068/221650680-facbafc8-5e76-4279-950b-9e600c3b8f4c.PNG)
 ***
 ### <ins>Instalación:</ins>  
 - <ins>1</ins>: Clone o descargue los archivos del repositorio en la carpeta raiz de su proyecto.  
 - <ins>2</ins>: Añada el siguiente código CSS en su archivo de estilos:  
-```
+```css
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .okalert{
@@ -55,10 +56,13 @@ Cabe recalcar que los parámetros: <code>msg</code> y <code>color</code> deberá
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
   }
   ```  
-  o agréguelo como un archivo en su head: ```<link href="/style.css" rel="stylesheet" type="text/css">```  
+  o agréguelo como un archivo en su head: 
+  ```html
+  <link href="/style.css" rel="stylesheet" type="text/css">
+  ```  
   ___
   - <ins>3</ins>: Añada el siguiente código justo antes de ```</body>```:  
-  ```
+  ```html
     <script src="/alerta.js"></script>
     <section class="okalert">
         <div id="alert"></div>
