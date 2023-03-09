@@ -56,7 +56,7 @@ alertaokgo("Ingrese un valor válido", "#FFB600", 3000)
     box-shadow: 5px 5px 20px rgb(0, 0, 0);
   }
   ```  
-  o agréguelo como un archivo en su head: 
+  o agréguelo como un archivo separado e impórtelo en su head: 
   ```html
   <link href="/style.css" rel="stylesheet" type="text/css">
   ```  
